@@ -1,0 +1,33 @@
+#parent1{
+    position:static;
+    border: 2px solid coral;
+    background-color: coral;
+    width: 500px;
+    height: 500px;
+}
+
+#child1{
+    position: absolute;
+    border: 1px solid skyblue;
+    background-color: skyblue;
+    top: 100px;
+    left: 40px;
+}
+
+#child2{
+    position: fixed;
+    border: 2px solid yellow;
+    background-color: yellow;
+    width: 300px;
+    height:100px;
+    top: 200px;
+    overflow: auto;
+}
+
+#child3{
+    position: relative;
+    border: 2px solid green;
+    background-color: green;
+    width: 200px;
+    height: fit-content;
+}

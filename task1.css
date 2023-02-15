@@ -1,0 +1,37 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.column{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.row{
+    margin: 5px;
+}
+
+.row:after{
+    content: "";
+    display:flex;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column{
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.card{
+    box-shadow: o 4px 8px o rgba(0,0,0,0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}

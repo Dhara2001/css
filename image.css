@@ -1,0 +1,39 @@
+header{
+    font-size: large;
+    color: blue;
+    font-family: 'Dokdo',cursive;
+    text-align: center;
+
+}
+
+p{
+    font-size: 20px;
+    color: brown;
+}
+
+main{
+   margin-left: 150px;
+    margin-right: 50px;
+    height: 200px;
+
+}
+
+.box{
+    display: box;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    
+    padding-left: 12px;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    border-radius: 6px;
+}
+
+img:hover{
+    transform: scale(2,2);
+    transition: .3s;
+}

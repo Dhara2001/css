@@ -1,0 +1,22 @@
+/*body{
+    margin:0px;
+    padding:0px;
+    height: 150vh;
+    font-family: 'raleway',sans-serif;
+}
+.resume-box{
+    width: 800px;
+    height: 1100px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px 5px;
+}
+.box-outer{
+    padding: 30px;
+}*/
+
+div{
+    border: 3px solid black;
+    border-radius: 3px;
+    background-color: aliceblue;
+    width: 60%;
+}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radixweb</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            width: 100%;
+            background: black;
+            overflow: auto;
+        
+            }
+        nav ul{
+            float: right;
+            list-style-type: none;
+        }    
+
+        ul {
+            padding: 0;
+            margin: 20px;
+            list-style: none;
+            float: left;
+            list-style-type: circle;
+        }
+
+        li {
+        
+            float: left;
+        }
+
+        .logo img {
+            position: absolute;
+            margin-top: 15px;
+            margin-left: 10%;
+            color: aliceblue;
+        }
+
+        nav a {
+            width: 100px;
+            display: block;
+            padding: 20px 15px;
+            font-family: Verdana, sans-serif;
+            text-align: center;
+            color: white;
+            border-bottom: 5px;
+            border-color:skyblue;
+        }
+
+        nav a:hover {
+            background: grey;
+            text-transform: uppercase;
+        }
+
+        .sidebar {
+            position: absolute;
+            top: auto;
+            left: 0;
+            color: black;
+            /* text-align: left; */
+            background-color: grey;
+            width: 20%;
+            height: 100%;
+        }
+        section {
+            margin-top: 3%;
+            margin-left: 22%;
+            background-color:white;
+            border: 5px;
+        }
+      
+        .abc h2{
+            margin: 5px;
+            padding: 10px;
+                }
+        
+
+</style>
+</head>
+
+<body>
+    <div class="logo"><img src="C:\Users\dhara.rana\Desktop\images\1.jpeg" alt="Radixweb" width="20px"
+                height="20px">
+    </div>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">BOOTSTRAP</a></li>
+                <li><a href="#">JAVASCRIPT</a></li>
+                <li><a href="#">JQUERY</a></li>
+                <li><a href="#">MINI-PROJECT</a></li>
+                <li><a href="#">SQL</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div class="sidebar">
+        <div>
+            <ul>
+                <li>Day 3</li><br>
+                <ul>
+                    <li>Assignment</li>
+                    <ul>
+                        <li><a href="#">Assignment 1</a></li>
+                    </ul>
+                    <ul>
+                        <li>Practice</li>
+                        <ul>
+                            <li><a href="#">Practice 1</a></li>
+                            <br>
+                            <li><a href="#">Practice 2</a></li>
+                        </ul>
+                    </ul>
+                </ul>
+            </ul>
+        </div>
+    </div>
+    <section>
+        
+            <!--form-->
+            
+                
+                <div style="text-align: center;">
+                    <h1><strong>Add Employee Form</strong></h1><hr>
+                </div>
+            
+            <div class="form" style="border:1px solid black">
+                <div class="abc">
+
+                    <h2 style="border:skyblue; background-color: skyblue; border-width: 5px; border-style: solid;">Add Employee Form</h2>
+                </div>
+                <div style="margin: 10px;">
+                First Name:<br>
+                <input type="text" name="firstname" required>
+                <br>
+                <br>
+                Last Name:<br>
+                <input type="text" name="Lastname" required>
+                <br>
+                <br>
+                Age:<br>
+                <input type="number" name="Age" id="Age" required>
+                <br>
+                <br>
+
+                Select Gender
+                <br>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label><br>
+                <input type="radio" name="gender" id="female">
+                <label for="male">Female</label><br>
+                <br>
+
+                Designation:<br>
+                <label for="designation">Choose a Designation:</label>
+                <select name="designation" id="designation" required>
+                    <option value="trainee engineer">Trainee engineer</option>
+                    <option value="Senior developer">Senior Developer</option>
+                    <option value="Junior developer">Junior Developer</option>
+                    <option value="manager">Manager</option>
+                </select><br>
+                <br>
+
+                Salary:<br>
+                <input type="number" name="salary" id="Salary" required>
+                <br>
+                <br>
+
+                Location:<br>
+                <label for="location">Choose a Location:</label>
+                <select name="location" id="location" required>
+                    <option value="first floor">First Floor</option>
+                    <option value="Second floor">Second Floor</option>
+                    <option value="third floor">Third Floor</option>
+                    <option value="forth floor">Forth Floor</option>
+                </select><br>
+                <br>
+
+                Enter your radixweb.email:
+                <input type="text" name="email" required>
+                <br>
+                <br>
+
+
+                <label for="joining">Date of Joining:</label>
+                <input type="date" id="joining" name="joining">
+                <br>
+                <br>
+
+                Contact Number:
+                <input type="number" name="Contact" id="Contact" required>
+                <br>
+                <br>
+
+                <input type="submit">
+                </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>

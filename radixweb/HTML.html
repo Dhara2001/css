@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            width: 100%;
+            background: black;
+            overflow: auto;
+        
+            }
+        nav ul{
+            float: right;
+            list-style-type: none;
+        }    
+
+        ul {
+            padding: 0;
+            margin: 20px;
+            list-style: none;
+            float: left;
+            list-style-type: circle;
+        }
+
+        li {
+        
+            float: left;
+        }
+
+        .logo img {
+            position: absolute;
+            margin-top: 15px;
+            margin-left: 10%;
+            color: aliceblue;
+        }
+
+        nav a {
+            width: 100px;
+            display: block;
+            padding: 20px 15px;
+            font-family: Verdana, sans-serif;
+            text-align: center;
+            color: white;
+            border-bottom: 5px;
+            border-color:skyblue;
+        }
+
+        nav a:hover {
+            background: grey;
+            text-transform: uppercase;
+        }
+
+        .sidebar {
+            position: absolute;
+            top: auto;
+            left: 0;
+            color: black;
+            /* text-align: left; */
+            background-color: grey;
+            width: 20%;
+            height: 100%;
+        }
+        .image1
+        {
+            margin-left: 50%;
+        }
+        .image1 img
+        {
+            float:center;
+            height: 300%;
+            width: 30%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo"><img src="1.jpeg" alt="Radixweb" width="100px"
+                height="100px">
+    </div>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="HTML.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="bootstrap.html">BOOTSTRAP</a></li>
+                <li><a href="javascript.html">JAVASCRIPT</a></li>
+                <li><a href="jquery.html">JQUERY</a></li>
+                <li><a href="miniproject.html">MINI-PROJECT</a></li>
+                <li><a href="query.html">SQL</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div class="sidebar">
+        <div>
+            <ul>
+                <li>Day 3</li><br>
+                <ul>
+                    <li>Assignment</li>
+                    <ul>
+                        <li><a href="./ha1.html">Assignment 1</a></li>
+                    </ul>
+                    <ul>
+                        <li>Practice</li>
+                        <ul>
+                            <li><a href="./htm1.html">Practice 1</a></li>
+                            <br>
+                            <li><a href="./htm2.html">Practice 2</a></li>
+                        </ul>
+                    </ul>
+                </ul>
+            </ul>
+        </div>
+      
+    </div>
+    <div class="image1">
+        <img src="html.jpeg" alt="no-image">
+    </div> 
+    
+</body>
+
+</html>

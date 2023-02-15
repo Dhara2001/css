@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <style>
+        .sidebar {
+            width: 20%;
+            height: 100%;
+        }
+
+        #public {
+            color: white;
+            border: 5px solid black;
+            background-color: black;
+        }
+
+        .item1 {
+           
+            grid-area: header;
+            color: black;
+            border: 5px solid black;
+            background-color: black;
+
+        }
+
+        .item2 {
+            grid-area: auto;
+        }
+
+        .item3 {
+            grid-area: auto;
+        }
+
+        .item4 {
+            grid-area: auto;
+        }
+
+        .item5 {
+            grid-area: auto;
+        }
+
+        .item6 {
+            grid-area: auto;
+        }
+
+        .item7 {
+            grid-area: auto;
+        }
+
+        
+        .right-div
+        {
+            margin: 0;
+            width: 25%;
+            margin-left: 25%;
+            float:center;
+            height: 60%;
+            width: 50%;
+        }
+
+        
+
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                'header header header'
+                'auto auto auto'
+                'auto auto auto';
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .grid-container>div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 15px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-div">
+            <div class="sidebar">
+                <ul>
+                    <li id="public">Public</li>
+                    <ul>
+                        <li>Link 1</li>
+                        <li>Link 2</li>
+                    </ul>
+                </ul>
+                <br>
+                <ul>
+                    <li id="public">view</li>
+                    <ul>
+                        <li>Link 1</li>
+                        <li>Link 2</li>
+                        <li>Link 3</li>
+                        <li>Link 4</li>
+                        <li>Link 5</li>
+                        <li>Link 6</li>
+                    </ul>
+                </ul>
+                <br>
+                <ul>
+                    <li id="public">HR</li>
+                    <ul>
+                        <li>Address Details</li>
+                        <li>Family Details</li>
+                    </ul>
+                </ul>
+                <br>
+                <ul>
+                    <li id="public">Network Details</li>
+                    <ul>
+                        <li>
+                            Vehicle Details
+                        </li>
+                        <li>Machine Details</li>
+                    </ul>
+                </ul>
+                <br>
+            </div>
+        </div>
+        <section>
+        <div class="right-div">
+            <div class="grid-container">
+                <div class="item1">Details</div>
+                <div class="item2">
+                    Name:ABC<br>
+                    Value:def<br>
+                    Extra:xyz<br>
+                </div>
+                <div class="item3">
+                    Name:ABC<br>
+                    Value:def<br>
+                    Extra:xyz<br>
+                </div>
+                <div class="item4">
+                    Name:ABC<br>
+                    Value:def<br>
+                    Extra:xyz<br>
+                </div>
+                <div class="item5">
+                    Name:ABC<br>
+                    Value:def<br>
+                    Extra:xyz<br>
+                </div>
+                <div class="item6">
+                    Name:ABC<br>
+                    Value:def<br>
+                    Extra:xyz<br>
+                </div>
+                <div class="item7">
+                    Name:ABC<br>
+                    Value:def<br>
+                    Extra:xyz<br>
+                </div>
+            </div>
+        </section>
+        </div>
+    </body>
+
+</html>
